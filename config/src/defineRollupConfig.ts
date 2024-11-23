@@ -12,7 +12,7 @@ import type {
 import {
   type OutputFormat,
   normalizeOutputOptions,
-} from './utils/outputFormat.mjs';
+} from './utils/outputFormat.js';
 
 export type OutputOptionsObject = {
   globals?: GlobalsOption;

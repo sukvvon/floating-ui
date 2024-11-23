@@ -1,7 +1,7 @@
 import type {
   NormalizedOutputOptions,
   RollupConfigOptions,
-} from 'src/defineRollupConfig.mjs';
+} from 'config/defineRollupConfig.js';
 
 export type OutputFormat = 'esm' | 'mjs' | 'cjs' | 'umd' | 'browser';
 
