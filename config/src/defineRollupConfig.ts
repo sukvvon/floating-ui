@@ -9,10 +9,7 @@ import type {
   RollupOptions,
 } from 'rollup';
 
-import {
-  type OutputFormat,
-  normalizeOutputOptions,
-} from './utils/outputFormat.js';
+import {type OutputFormat, normalizeOutputOptions} from './utils/outputFormat';
 
 export type OutputOptionsObject = {
   globals?: GlobalsOption;
