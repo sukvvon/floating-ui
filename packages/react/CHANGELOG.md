@@ -1,5 +1,23 @@
 # @floating-ui/react
 
+## 0.27.0
+
+### Minor Changes
+
+- chore: deprecate `inner` and `useInnerOffset`. This technique of aligning an inner element to the reference has poor performance with longer lists, doesn't fit with the middleware paradigm, doesn't work on touch, and has a better custom alternative using native `onScroll` that is encouraged instead.
+- breaking: drop React 16 support. 17 is the minimum supported version.
+- fix(useId): add `| undefined` return type for React 17
+
+### Patch Changes
+
+- feat(FloatingFocusManager): add `outsideElementsInert` prop. This enables pointer modality without a backdrop.
+- chore: add React 19 RC support
+- perf(useListNavigation): simplify focusing to remove unneeded asynchronicity
+- fix(useDismiss): allow native clicks to work with `referencePress`
+- fix(useDismiss): read target `overflow` style for scrollbar press check. Fixes an issue where outside presses would be incorrectly prevented if the target element that was pressed appeared scrollable but was actually not.
+- fix(FloatingFocusManager): check for 'safe-polygon' reason on return focus
+- Update dependencies: `@floating-ui/react-dom@2.1.3`
+
 ## 0.26.28
 
 ### Patch Changes

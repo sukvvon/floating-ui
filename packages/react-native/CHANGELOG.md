@@ -1,5 +1,11 @@
 # @floating-ui/react-native
 
+## 0.10.8
+
+### Patch Changes
+
+- chore: add React 19 RC support
+
 ## 0.10.7
 
 ### Patch Changes
