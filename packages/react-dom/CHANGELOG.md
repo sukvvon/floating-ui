@@ -1,5 +1,11 @@
 # @floating-ui/react-dom
 
+## 2.1.3
+
+### Patch Changes
+
+- chore: add React 19 RC support
+
 ## 2.1.2
 
 ### Patch Changes
