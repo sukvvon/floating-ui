@@ -1,5 +1,12 @@
 # @floating-ui/react
 
+## 0.27.1
+
+### Patch Changes
+
+- fix(FloatingFocusManager): correctly fallback to container
+- fix(FloatingFocusManager): check for ancestor floating focus element during `closeOnFocusOut`
+
 ## 0.27.0
 
 ### Minor Changes
